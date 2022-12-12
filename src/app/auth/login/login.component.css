@@ -1,0 +1,32 @@
+#heading{
+    margin-top: 22%;
+}
+#login-btn{
+    margin-top: 3%;
+    background-color: #412a27;
+    border-color: #412a27;
+    width: 30%;
+}
+#sign-up-link{
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 5%;
+}
+#forgot-pass-link{
+    font-weight: 500;
+    text-decoration: none;
+}
+#sign-up-msg{
+    margin-top: 2%;
+}
+#forgot-msg{
+    margin-top: 10%;
+}
+#login-img{
+    margin-top: 10%;
+    margin-left: 15%;
+    border-radius: 1%;
+    border-top-left-radius: 27%;
+    border-bottom-right-radius: 27%;
+    box-shadow: 10px 10px 5px#412a27;
+}

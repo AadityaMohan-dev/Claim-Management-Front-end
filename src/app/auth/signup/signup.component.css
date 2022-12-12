@@ -1,0 +1,32 @@
+#heading{
+    margin-top: 20%;
+    color: #412a27;
+}
+#submit-btn{
+    margin-top: 3%;
+    background-color: #412a27;
+    border-color: #412a27;
+    width: 30%;
+}
+#login-link{
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 5%;
+}
+#login-msg{
+    margin-top: 5%;
+}
+
+#signup-img{
+    margin-top: 10%;
+    margin-left: 15%;
+    border-radius: 5%;
+    box-shadow: 10px 10px 5px#412a27;
+}
+
+.error_msg{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: small;
+    
+}

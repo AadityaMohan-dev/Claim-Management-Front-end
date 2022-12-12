@@ -1,0 +1,26 @@
+<section>
+  <div class = "row">
+    <div class="col-md-1"></div>
+    <div class="col-md-4">
+      <h1 id="heading">Login</h1>
+      <div id = "loginbody" ><form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        
+        <button type="submit" class="btn btn-primary" id="login-btn">Login</button> 
+        <div class="mb-3" id="forgot-msg"><a id="forgot=pass" routerLink ="/forgot-pass" id="forgot-pass-link">Forgot Password ?</a></div>
+        <div class="mb-3" id="sign-up-msg">Don't have an account?<a routerLink ="/sign-up" id="sign-up-link">Sign up</a></div>
+      </form></div>
+    </div>
+    <div class="col-md-7">
+      <img [src] ="ImagePath" id="login-img"
+      style="width: 600px;height: 400px;">
+    </div>
+  </div>  
+</section>

@@ -1,0 +1,37 @@
+#menu {
+    margin-top: 5%;
+}
+
+#memberoptn {
+
+    width: 100%;
+    background-color: #412a27;
+    border-color: #412a27;
+    font-weight: bolder;
+    font-size: xx-large;
+    box-shadow: #412a27 4px 4px 4px;
+}
+
+#memberoptn:hover {
+    background-color: burlywood;
+    color: #412a27;
+}
+
+h1 {
+    margin-top: 1%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #412a27;
+    text-shadow: #412a27 1px 1px 1px;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+
+#mem-img{
+    margin-left: 7%;
+    height: 600px;
+}
+
+section{
+    color: whitesmoke;
+}
