@@ -9,6 +9,7 @@ import { SignupComponent } from './auth/signup/signup.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MemberComponent } from './dashboard/member/member.component';
 import { AdminComponent } from './dashboard/admin/admin.component';
+import { AddclaimComponent } from './model/addclaim/addclaim.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AdminComponent } from './dashboard/admin/admin.component';
     NavbarComponent,
     SignupComponent,
     MemberComponent,
-    AdminComponent
+    AdminComponent,
+    AddclaimComponent
 
   ],
   imports: [

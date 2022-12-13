@@ -9,22 +9,24 @@
             <label for="exampleInputname" class="form-label">Name</label>
             <input type="text" class="form-control" id="exampleInputname" aria-describedby="nameHelp" placeholder="Enter your name" formControlName="name">
             <span class="error_msg" *ngIf="signUpForm.controls['name'].touched && signUpForm.controls['name'].invalid">
-              <span *ngIf = "signUpForm.controls['name'].errors">name is required</span>
+              <span *ngIf = "signUpForm.controls['name'].errors?.['required']">name is required</span>
+              <span *ngIf = "signUpForm.controls['name'].errors?.['pattern']">name is not valid</span>
             </span>
         </div>
         <div class="mb-3" >
           <label for="exampleInputdob" class="form-label">Date of Birth</label>
           <input type="date" class="form-control" id="exampleInputdate" aria-describedby="dateHelp">
-          <span class="error_msg" *ngIf="signUpForm.controls['dob'].touched && signUpForm.controls['name'].invalid">
-            <span *ngIf = "signUpForm.controls['dob'].errors">date is required</span>
+          <span class="error_msg" *ngIf="signUpForm.controls['dob'].touched ">
+            <span *ngIf = "signUpForm.controls['dob'].errors?.['required']">DOB is required</span>
           </span>
                     
       </div>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <span class="error_msg" *ngIf="signUpForm.controls['email'].touched && signUpForm.controls['name'].invalid">
-            <span *ngIf = "signUpForm.controls['email'].errors">email is required</span>
+          <span class="error_msg" *ngIf="signUpForm.controls['email'].touched && signUpForm.controls['email'].invalid">
+            <span *ngIf = "signUpForm.controls['email'].errors?.['required']">email is required</span>
+            <span *ngIf = "signUpForm.controls['email'].errors?.['pattern']">email is invalid</span>
           </span>
         </div>
         <div class="mb-3">
@@ -32,8 +34,9 @@
           
           <input type="password" class="form-control" id="pass-inp">
 
-          <span class="error_msg" *ngIf="signUpForm.controls['password'].touched && signUpForm.controls['name'].invalid">
-            <span *ngIf = "signUpForm.controls['password'].errors">password is required</span>
+          <span class="error_msg" *ngIf="signUpForm.controls['password'].touched && signUpForm.controls['password'].invalid">
+            <span *ngIf = "signUpForm.controls['password'].errors?.['required']">password is required</span>
+            <span *ngIf = "signUpForm.controls['password'].errors?.['pattern']">password is invalid</span>
           </span>
 
           
@@ -42,7 +45,7 @@
           <label for="exampleInputrePassword1" class="form-label"id="pass-2">Re-Password</label>
           <input type="password" class="form-control" id="pass-2">
         </div>
-        <button type="submit" id="signupbody" class="btn btn-primary" >Submit</button>
+        <button type="submit" id="submit-btn" class="btn btn-primary" >Submit</button>
         <div class="mb-3" id="login-msg">Already Registered ? <a id="login-link" routerLink ="">Login</a></div>  
     </form></div>
     </div>
