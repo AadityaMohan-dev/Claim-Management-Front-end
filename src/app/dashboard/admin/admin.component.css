@@ -27,11 +27,23 @@ h1 {
 }
 
 
-#mem-img{
-    margin-left: 7%;
-    height: 600px;
+img{
+    margin-top: 30%;
+    height: 400px;
+    width: auto;
+    
 }
 
-section{
-    color: whitesmoke;
+#menu{
+    margin-top: 0%;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+li{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    color: #412a27;
+    background-color: #412a27;
 }

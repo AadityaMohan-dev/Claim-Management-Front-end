@@ -9,6 +9,6 @@ export class AdminComponent {
   ImagePath: string;
 
   constructor(){
-    this.ImagePath = '/assets/images/member-db.jpg'
+    this.ImagePath = '/assets/images/profile.png'
   }
 }

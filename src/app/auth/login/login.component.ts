@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
   ImagePath: string;
-  
+
   constructor() {
     //image location
     this.ImagePath = '/assets/images/LoginPageimg.png'

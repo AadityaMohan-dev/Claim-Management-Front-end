@@ -31,16 +31,19 @@ img{
     margin-top: 30%;
     height: 400px;
     width: auto;
+    
 }
 
 #menu{
-    
+    margin-top: 0%;
     font-size: x-large;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top:0%;
     text-align: justify;
 }
 
 li{
-    margin-bottom: 15%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    color: #412a27;
+    background-color: #412a27;
 }

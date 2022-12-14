@@ -14,6 +14,11 @@ import { ProfileComponent } from './dashboard/member/profile/profile.component';
 import { ViewclaimComponent } from './dashboard/member/viewclaim/viewclaim.component';
 import { ViewplanComponent } from './dashboard/member/viewplan/viewplan.component';
 import { AddplanComponent } from './dashboard/member/addplan/addplan.component';
+import { ViewmemberComponent } from './dashboard/admin/viewmember/viewmember.component';
+import { ApproveclaimComponent } from './dashboard/admin/approveclaim/approveclaim.component';
+import { ContactusComponent } from './dashboard/contactus/contactus.component';
+import { AdminprofileComponent } from './dashboard/admin/adminprofile/adminprofile.component';
+import { ViewallclaimComponent } from './dashboard/admin/viewallclaim/viewallclaim.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +32,12 @@ import { AddplanComponent } from './dashboard/member/addplan/addplan.component';
     ProfileComponent,
     ViewclaimComponent,
     ViewplanComponent,
-    AddplanComponent
+    AddplanComponent,
+    ViewmemberComponent,
+    ApproveclaimComponent,
+    ContactusComponent,
+    AdminprofileComponent,
+    ViewallclaimComponent
 
   ],
   imports: [
