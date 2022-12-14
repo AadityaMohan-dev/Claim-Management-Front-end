@@ -1,11 +1,12 @@
 <section>
-    <div class="row ">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-3" id="container">
-            <h1 id="heading">Add Claim</h1>
-            <div id="signupbody">
+    <div class="card text-center" id="card">
+        <div class="card-header">
+          <h1>ADD CLAIM</h1>
+        </div>
+        <div class="card-body">
+            <div id="signupbody" class="col-sm-6">
                 <form>
-                    <div class="mb-2">
+                    <div class="mb-1">
                         <label for="inputClaim" class="form-label">Claim Type</label>
                         <select id="inputCalim" class="form-select">
                             <option selected>Choose..</option>
@@ -13,36 +14,34 @@
                             <option>Life Insurance</option>
                         </select>
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-1">
                         <label for="inputClaimAmount" class="form-label">Claim Amount</label>
                         <input type="text" class="form-control" id="inputClaimamount">
                     </div>
 
-                    <div class="mb-3">
+                    <div class="mb-1">
                         <label for="inputAddress" class="form-label">Hospital Name</label>
                         <input type="text" class="form-control" id="inputAddress">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-1">
                         <label for="exampleadmdate" class="form-label">Admit Date</label>
                         <input type="date" class="form-control" id="exampleadmdate" aria-describedby="dateHelp">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-1">
                         <label for="exampledisdate" class="form-label">Discharge Date</label>
                         <input type="date" class="form-control" id="exampledisdate" aria-describedby="dateHelp">
                     </div>
 
-                    <div class="mb-3">
+                    <div class="mb-1">
                         <label for="formFileDisabled" class="form-label">Upload Document</label>
                         <input class="form-control" type="file" id="formFileDisabled" />
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-1">
                         <button type="submit" class="btn btn-primary" id="submit-btn">Submit</button>
                     </div>
                 </form>
             </div>
         </div>
-        <div class="col-sm-7">
-            <img [src]="ImagePath" id="add-claim-img">
-        </div>
+       
     </div>
 </section>

@@ -10,6 +10,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MemberComponent } from './dashboard/member/member.component';
 import { AdminComponent } from './dashboard/admin/admin.component';
 import { AddclaimComponent } from './model/addclaim/addclaim.component';
+import { ProfileComponent } from './dashboard/member/profile/profile.component';
+import { ViewclaimComponent } from './dashboard/member/viewclaim/viewclaim.component';
+import { ViewplanComponent } from './dashboard/member/viewplan/viewplan.component';
+import { AddplanComponent } from './dashboard/member/addplan/addplan.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { AddclaimComponent } from './model/addclaim/addclaim.component';
     SignupComponent,
     MemberComponent,
     AdminComponent,
-    AddclaimComponent
+    AddclaimComponent,
+    ProfileComponent,
+    ViewclaimComponent,
+    ViewplanComponent,
+    AddplanComponent
 
   ],
   imports: [

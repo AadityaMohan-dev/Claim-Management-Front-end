@@ -1,5 +1,4 @@
-#heading{
-    margin-top: 10%;
+h1{
     color: #412a27;
 }
 #submit-btn{
@@ -13,4 +12,11 @@
     margin-left: 5%;
     height: 600px;
     width: 1000px;
+}
+label{
+    float: left;
+}
+#signupbody{
+    margin-left: 25%;
+    margin-top: 1%;
 }
